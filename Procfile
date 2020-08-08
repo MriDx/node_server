@@ -1,1 +1,1 @@
-release: ENV_SILENT=true node start
+release: ENV_SILENT=true npm start
