@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
 
   res.end("Connection established with local server");
 });
-server.listen(8081, () => {
+server.listen(80, () => {
   console.log("Server running...");
   console.log("Server start");
 });
