@@ -6,8 +6,7 @@ const server = http.createServer((req, res) => {
   let data = [];
 
   req.on("data", (chunk) => {
-    data.push(chunk);
-
+    //data.push(chunk);
     /* var container = JSON.parse(data.toString()); //data already parsed to json
     console.log(container.newValue);
     var doc = null;
